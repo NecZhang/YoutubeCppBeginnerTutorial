@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int main()
-{
+int main(){
 	int num1, num2, result;
 	char op;
 
@@ -16,24 +15,19 @@ int main()
 	cout << "Enter the second number: ";
 	cin >> num2;
 
-	if (op == '+')
-	{
+	if (op == '+'){
 		result = num1 + num2;
 	}
-	else if (op == '-')
-	{
+	else if (op == '-'){
 		result = num1 - num2;
 	}
-	else if (op == '*')
-	{
+	else if (op == '*'){
 		result = num1 * num2;
 	}
-	else if(op == '/')
-	{
+	else if(op == '/'){
 		result = num1 / num2;
 	}
-	else
-	{
+	else{
 		cout << "Invalid Operator!";
 	}
 	cout << result;

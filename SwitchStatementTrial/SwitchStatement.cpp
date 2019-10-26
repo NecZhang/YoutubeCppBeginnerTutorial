@@ -2,12 +2,10 @@
 
 using namespace std;
 
-string getDayOfWeek(int dayNum)
-{
+string getDayOfWeek(int dayNum){
 	string dayName;
 
-	switch (dayNum)
-	{
+	switch (dayNum){
 	case 1:
 		dayName = "Sunday";
 		break;
@@ -36,8 +34,7 @@ string getDayOfWeek(int dayNum)
 	return dayName;
 }
 
-int main()
-{
+int main(){
 	int dayNum;
 	cout << "Enter a Day Number: ";
 	cin >> dayNum;
